@@ -13,7 +13,9 @@ const { Breed } = db;
 router.get(
   "/",
   asyncHandler(async (req, res) => {
-    const breeds = await Breed.findAll();
+    const breeds = await Breed.findAll({
+      order: [["breedName"]],
+    });
     res.json({ breeds });
   })
 );
