@@ -103,7 +103,6 @@ router.post("/token", asyncHandler(async (req, res, next) => {
   const user = await User.findOne({
     where: { email },
   });
-  console.log(user.hashedPassword)
 
   if (!user || !validatePassword(password, user.hashedPassword)) {
     const err = new Error("Failed to log in.");
