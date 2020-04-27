@@ -12,7 +12,7 @@ module.exports = {
 				size: 3,
 				description: "Much doge. Very wow.",
 				photo:
-					"https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+					"https://vignette.wikia.nocookie.net/dogelore/images/9/97/Doge.jpg/revision/latest?cb=20190205113053",
 				isAdopted: false,
 				isOkayKids: true,
 				isOkayPets: true,

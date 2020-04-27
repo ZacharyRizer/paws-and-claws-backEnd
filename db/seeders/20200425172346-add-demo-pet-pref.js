@@ -5,10 +5,10 @@ module.exports = {
     return queryInterface.bulkInsert("UserPetPreferences", [
       {
         userId: 1,
-        breedId: 2,
-        age: 1,
+        breedId: 22,
+        age: 2,
         sex: 1,
-        size: 1,
+        size: 3,
         isOkayPets: true,
         isOkayKids: true,
         createdAt: new Date(),
